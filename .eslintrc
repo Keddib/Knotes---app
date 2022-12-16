@@ -9,7 +9,10 @@
   "rules": {
     "prettier/prettier": ["warn"],
     "react/react-in-jsx-scope" : "off",
-    "react/jsx-filename-extension" : "off"
+    "react/jsx-filename-extension" : "off",
+    "eqeqeq" : "off",
+    "no-plusplus": "off",
+    "no-var": "off"
   },
   "settings": {
     "import/resolver": {
