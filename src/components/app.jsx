@@ -6,7 +6,7 @@ function App() {
   useEffect(() => {
     store.dispatch(addTodo("test one", "this is another test"));
   }, []);
-  return <div>hello world!</div>;
+  return <div className="app">hello world!</div>;
 }
 
 export default App;
