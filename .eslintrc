@@ -12,7 +12,8 @@
     "react/jsx-filename-extension" : "off",
     "eqeqeq" : "off",
     "no-plusplus": "off",
-    "no-var": "off"
+    "no-var": "off",
+    "react/prop-types" : "off"
   },
   "settings": {
     "import/resolver": {
@@ -24,5 +25,5 @@
       "version":  "detect"  // Tells eslint-plugin-react to automatically detect the version of React to use
     }
   },
-  "ignorePatterns": ["node_modules", "vite.config.js"]
+  "ignorePatterns": ["node_modules", "vite.config.js", "tailwind.config.cjs"]
 }
